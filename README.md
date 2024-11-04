@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> This project is experimental and developed as part of the Torizon Innovation
+> initiative. This software is not tested for production use.
+> Feedback and contributions are welcomed.
+
 # Marino
 
 Marino is a small wrapper around `docker compose` that monitors the services
@@ -71,8 +76,3 @@ Monitoring the following containers: ["dependent_service", "dependentee_service"
 
 Note that Marino will match the service `name` property and monitor only those
 defined in the `docker-compose.yml` file.
-
-## Project Status
-
-Marino is experimental and developed as part of the Torizon Innovation
-initiative. Feedback and contributions are welcomed.
